@@ -6,6 +6,6 @@
 
 
 
-stop = stopwords.words('russian') df['product_lem'] = df['product'].apply(lambda x: ' '.join( [word for word in x.split() if word not in (stop)])) df['product_lem'].head()
+
 
 
